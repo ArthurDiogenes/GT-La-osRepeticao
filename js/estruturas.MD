@@ -12,11 +12,13 @@ do {
     i++;
 } while (i<5);
 
+ -- ARRAY
 const frutas = ["Maçã", "Banana", "Laranja", "Uva"];
 for (const fruta of frutas) {
     console.log("Fruta:" +fruta);
 }
 
+-- OBJETO
 const user = {nome: "Lucas", idade: 25, cidade: "São Paulo"};
 for (let key in user) {
     console.log(`${key}: ${user[key]}`);
